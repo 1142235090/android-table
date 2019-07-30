@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="1000dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--标题行-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape_check_record_title_border"
+                android:text="名字"
+                android:textColor="#434343" />
+
+            <TextView
+                android:id="@+id/item_check_record_table_title_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:background="@drawable/shape_check_record_title_border"
+                android:gravity="center"
+                android:text="列1"
+                android:textColor="#434343" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_check_record_title_border"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="列2"
+                android:textColor="#434343" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_check_record_title_border"
+                android:gravity="center"
+                android:text="列3"
+                android:textColor="#434343" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_check_record_title_border"
+                android:gravity="center"
+                android:text="列4"
+                android:textColor="#434343" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_check_record_title_border"
+                android:gravity="center"
+                android:text="列5"
+                android:textColor="#434343" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_item_check_record_table_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
