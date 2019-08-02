@@ -113,8 +113,9 @@ public class MainActivity extends AppCompatActivity {
                         measureView.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,DensityUtils.dip2px(this,60), 1f));
                         for(int k=0;k<6;k++){
                             String valueString="";
-                            if(k<measureList.size()){
-                                MeasuredValue measure = measureList.get(k+a*4);
+                            MeasuredValue measure=null;
+                            if((k+a*6)<measureList.size()){
+                                measure = measureList.get(k+a*6);
                                 if(null!=measure){
                                     valueString = measure.getValue();
                                 }
